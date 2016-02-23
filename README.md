@@ -12,5 +12,5 @@ $ poly-point-simplify --min-area 2 collection.geojson | geojson-summary
 
 Why? If you're making choropleth maps, small polygons may disappear or become impossible to interpret. Instead, you can employ this handy cartographic techniques to ensure all features' data are still represented on the map. 
 
-<img src="https://pbs.twimg.com/media/Ca2cb3fWAAAJZkV.jpg" width="75%">
+<img src="https://pbs.twimg.com/media/Ca2cb3fWAAAJZkV.jpg">
 
