@@ -14,3 +14,10 @@ Why? If you're making choropleth maps, small polygons may disappear or become im
 
 <img src="https://pbs.twimg.com/media/Ca2cb3fWAAAJZkV.jpg">
 
+Install with
+
+```
+git clone https://github.com/perrygeo/poly-point-simplify.git
+cd poly-point-simplify
+pip install -e .
+```
