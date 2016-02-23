@@ -1,6 +1,6 @@
 # poly-point-simplify
 
-Replace geometries smaller than a certain area with points
+Command line interface to process GeoJSON features, replacing geometries smaller than a certain area threshold with points
 
 ```
 $ cat collection.geojson | geojson-summary
@@ -9,3 +9,8 @@ $ cat collection.geojson | geojson-summary
 $ poly-point-simplify --min-area 2 collection.geojson | geojson-summary
 24 points and 153 multipolygons
 ```
+
+Why? If you're making choropleth maps, small polygons may disappear or become impossible to interpret. Instead, you can employ this handy cartographic techniques to ensure all features' data are still represented on the map. 
+
+<img src="https://pbs.twimg.com/media/Ca2cb3fWAAAJZkV.jpg" width="75%">
+
