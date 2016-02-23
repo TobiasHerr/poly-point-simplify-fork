@@ -21,7 +21,7 @@ setup(name='poly-point-simplify',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          'click', 'cligj'
+          'click', 'cligj', 'shapely'
       ],
       entry_points="""
       [console_scripts]
